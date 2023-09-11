@@ -76,7 +76,7 @@ footer {
 }
 
 h1{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: white;
     
 }
@@ -144,4 +144,18 @@ tr td:first-child{
 
 tr td{
     padding-top: 20px;
+}
+
+p
+{
+    color: white;
+    font-size: 20px;
+}
+.dates{
+    color: white;
+    padding-left: 50px;
+    margin-bottom:6px;
+}
+h3{
+    color: white;
 }

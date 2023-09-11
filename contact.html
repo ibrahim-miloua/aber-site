@@ -24,23 +24,23 @@
 
     <div class="container">
 
-       <h1 class="connect"> Connect with me!</h1>
+       <h1 class="connect"> Get in touch</h1>
 
        <div class="contact-box">
             <div class="contact-left">
                 <h3>send your request</h3>
-                <form>
+                <form >
 
                             <div class="input-row">
                                 <div class="input-group">
                                     <label >Name</label>
-                                    <input type="text"placeholder = "your name">
+                                    <input type="text"  id="name" placeholder = "Elong Ma" required>
 
                                 </div>
                                 
                                 <div class="input-group">
                                     <label >Phone</label>
-                                    <input type="text"placeholder = "+1 234 456 7890">
+                                    <input type="text" id="phone" placeholder = "+1 234 456 7890" required >
         
                                 </div>
                             </div>
@@ -50,20 +50,20 @@
                             <div class="input-row">
                                 <div class="input-group">
                                     <label >Email</label>
-                                    <input type="text"placeholder = "yourname@gmail.com">
+                                    <input type="email" id="email" placeholder = "yourname@gmail.com" required >
         
                                 </div>
                                 
                                 <div class="input-group">
                                     <label >Subject</label>
-                                    <input type="text"placeholder = "please enter a subject">
+                                    <input type="text" id="subject" placeholder = "please enter a subject" required  >
         
                                 </div>
                             </div>
 
                             <label > Message</label>
-                            <textarea rows="5" placeholder="your message"></textarea>
-                            <button type="submit" >SEND</button>
+                            <textarea id="message" rows="5" placeholder="your message" required ></textarea>
+                            <button type="submit" >Send</button>
 
                             
 
@@ -92,7 +92,13 @@
 
     </div>
 
+    
+
 
     
 </body>
+
+<footer>
+    <p>&copy; 2023 Ibrahim Miloua. Thanks for visiting!</p>
+</footer>
 </html>
